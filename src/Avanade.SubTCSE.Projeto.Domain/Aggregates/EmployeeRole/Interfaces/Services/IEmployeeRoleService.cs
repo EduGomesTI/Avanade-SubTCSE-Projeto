@@ -8,6 +8,6 @@ namespace Avanade.SubTCSE.Projeto.Domain.Aggregates.EmployeeRole.Interfaces.Serv
 {
     interface IEmployeeRoleService
     {
-        void AddemplyeeRole(Entities.EmployeeRole employeeRole);
+        Task<Entities.EmployeeRole> AddemplyeeRole(Entities.EmployeeRole employeeRole);
     }
 }
